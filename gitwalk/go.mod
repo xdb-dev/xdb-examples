@@ -1,44 +1,54 @@
 module gitwalk
 
-go 1.21
+go 1.21.0
 
 replace (
 	github.com/xdb-dev/xdb => ../../xdb
-	github.com/xdb-dev/xdb/encoding/pb => ../../xdb/encoding/pb
-	github.com/xdb-dev/xdb/stores/kv => ../../xdb/stores/kv
-	github.com/xdb-dev/xdb/stores/kv/memory => ../../xdb/stores/kv/memory
+	github.com/xdb-dev/xdb/stores/sqlite => ../../xdb/stores/sqlite
 )
 
 require (
-	github.com/go-git/go-git/v5 v5.8.1
-	github.com/lmittmann/tint v1.0.1
-	github.com/xdb-dev/xdb v0.0.0-20230825041855-798cc4eb7b8c
-	github.com/xdb-dev/xdb/stores/kv/memory v0.0.0-00010101000000-000000000000
+	github.com/go-git/go-git/v5 v5.12.0
+	github.com/lmittmann/tint v1.0.4
+	github.com/xdb-dev/xdb v0.0.0-00010101000000-000000000000
+	github.com/xdb-dev/xdb/stores/sqlite v0.0.0-00010101000000-000000000000
+	zombiezen.com/go/sqlite v1.2.0
 )
 
 require (
 	dario.cat/mergo v1.0.0 // indirect
+	github.com/Masterminds/squirrel v1.5.4 // indirect
 	github.com/Microsoft/go-winio v0.6.1 // indirect
-	github.com/ProtonMail/go-crypto v0.0.0-20230717121422-5aa5874ade95 // indirect
-	github.com/acomagu/bufpipe v1.0.4 // indirect
-	github.com/cloudflare/circl v1.3.3 // indirect
+	github.com/ProtonMail/go-crypto v1.0.0 // indirect
+	github.com/cloudflare/circl v1.3.7 // indirect
+	github.com/cyphar/filepath-securejoin v0.2.4 // indirect
+	github.com/dustin/go-humanize v1.0.1 // indirect
 	github.com/emirpasic/gods v1.18.1 // indirect
 	github.com/go-git/gcfg v1.5.1-0.20230307220236-3a3c6141e376 // indirect
-	github.com/go-git/go-billy/v5 v5.4.1 // indirect
+	github.com/go-git/go-billy/v5 v5.5.0 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
+	github.com/google/uuid v1.3.0 // indirect
 	github.com/jbenet/go-context v0.0.0-20150711004518-d14ea06fba99 // indirect
 	github.com/kevinburke/ssh_config v1.2.0 // indirect
+	github.com/lann/builder v0.0.0-20180802200727-47ae307949d0 // indirect
+	github.com/lann/ps v0.0.0-20150810152359-62de8c46ede0 // indirect
+	github.com/mattn/go-isatty v0.0.16 // indirect
+	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/pjbgf/sha1cd v0.3.0 // indirect
-	github.com/sergi/go-diff v1.1.0 // indirect
-	github.com/skeema/knownhosts v1.2.0 // indirect
+	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
+	github.com/sergi/go-diff v1.3.2-0.20230802210424-5b0b94c5c0d3 // indirect
+	github.com/skeema/knownhosts v1.2.2 // indirect
 	github.com/xanzy/ssh-agent v0.3.3 // indirect
-	github.com/xdb-dev/xdb/encoding/pb v0.0.0-00010101000000-000000000000 // indirect
-	github.com/xdb-dev/xdb/stores/kv v0.0.0-00010101000000-000000000000 // indirect
-	golang.org/x/crypto v0.11.0 // indirect
-	golang.org/x/mod v0.8.0 // indirect
-	golang.org/x/net v0.12.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/tools v0.6.0 // indirect
-	google.golang.org/protobuf v1.31.0 // indirect
+	golang.org/x/crypto v0.22.0 // indirect
+	golang.org/x/exp v0.0.0-20240409090435-93d18d7e34b8 // indirect
+	golang.org/x/mod v0.17.0 // indirect
+	golang.org/x/net v0.24.0 // indirect
+	golang.org/x/sync v0.7.0 // indirect
+	golang.org/x/sys v0.19.0 // indirect
+	golang.org/x/tools v0.20.0 // indirect
 	gopkg.in/warnings.v0 v0.1.2 // indirect
+	modernc.org/libc v1.41.0 // indirect
+	modernc.org/mathutil v1.6.0 // indirect
+	modernc.org/memory v1.7.2 // indirect
+	modernc.org/sqlite v1.29.1 // indirect
 )

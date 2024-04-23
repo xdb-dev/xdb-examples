@@ -44,3 +44,4 @@ vendor/
 tools/vendor
 
 .envrc
+*.db
